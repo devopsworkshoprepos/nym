@@ -18,3 +18,7 @@ const marker = L.marker([40.75703,-73.98597]).addTo(map)
 const marker2 = L.marker([40.74214, -73.98807]).addTo(map)
     .bindPopup('<b>Madison Square Park</b><br />A great park to walk around.');
 
+const marker3 = L.marker([56.0014, -3.404]).addTo(map)
+		.bindPopup('<b>Forth Bridge</b><br />  The first major structure in Britain to be made of steel.').openPopup();
+
+
