@@ -22,3 +22,5 @@ const marker3 = L.marker([56.0014, -3.404]).addTo(map)
 		.bindPopup('<b>Forth Bridge</b><br />  The first major structure in Britain to be made of steel.');
 
 
+        const marker4 = L.marker([40.75878,-73.98713]).addTo(map)
+		.bindPopup('<b>Music Box Theatre</b><br />Famous for Music .').openPopup();
