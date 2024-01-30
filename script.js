@@ -22,3 +22,6 @@ const marker3 = L.marker([56.0014, -3.404]).addTo(map)
 		.bindPopup('<b>Forth Bridge</b><br />  The first major structure in Britain to be made of steel.');
 
 
+const marker3 = L.marker([54° 54' 51.84,-1° 23' 17.52).addTo(map)
+		.bindPopup('<b>Stadium of light</b><br />  the Stadium of light is the home of Sunderland AFC.');
+
