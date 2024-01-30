@@ -12,6 +12,9 @@ map.addLayer(layer);
 // marker.addTo(map);
 
 
+const marker = L.marker([40.75824,-73.98761]).addTo(map)
+                .bindPopup('<b>Broadhust Theatre</b>');
+
 const marker = L.marker([40.75703,-73.98597]).addTo(map)
 		.bindPopup('<b>Time Square</b><br />Famous for new year celebrations.');
 
