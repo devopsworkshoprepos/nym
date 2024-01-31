@@ -8,8 +8,8 @@ let map = new L.map('map', mapOptions);
 let layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
 map.addLayer(layer);
 
-// let marker = new L.Marker([40.75703,-73.98597]);
-// marker.addTo(map);
+ let marker = new L.Marker([40.7584300, -73.9867500]);
+ marker.addTo(map);
 
 
 const marker = L.marker([40.75703,-73.98597]).addTo(map)
