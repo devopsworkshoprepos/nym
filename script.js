@@ -21,4 +21,5 @@ const marker2 = L.marker([40.74214, -73.98807]).addTo(map)
 const marker3 = L.marker([56.0014, -3.404]).addTo(map)
 		.bindPopup('<b>Forth Bridge</b><br />  The first major structure in Britain to be made of steel.');
 
-
+const marker4 = L.marker([54.9124, -1.3741]).addTo(map)
+  .bindPopup('<b>David Goldman Informatics Centre</b><br />  A building at the University of Sunderland.');
