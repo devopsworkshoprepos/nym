@@ -21,4 +21,5 @@ const marker2 = L.marker([40.74214, -73.98807]).addTo(map)
 const marker3 = L.marker([56.0014, -3.404]).addTo(map)
 		.bindPopup('<b>Forth Bridge</b><br />  The first major structure in Britain to be made of steel.');
 
-
+const marker3 = L.marker([25.19729, 55.27416]).addTo(map)
+		.bindPopup('<b>Burj Khalifa</b><br />  The tallest building in the world.');
