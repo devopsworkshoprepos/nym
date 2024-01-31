@@ -11,6 +11,10 @@ map.addLayer(layer);
 // let marker = new L.Marker([40.75703,-73.98597]);
 // marker.addTo(map);
 
+// NEW Marker by bi00ff
+const marker4 = L.marker([14.5821, 120.9794]).addTo(map)
+                .bindPopup('<b>Rizal Park</b><br />A historical park in the heart of Manila.');
+
 
 const marker = L.marker([40.75703,-73.98597]).addTo(map)
 		.bindPopup('<b>Time Square</b><br />Famous for new year celebrations.');
